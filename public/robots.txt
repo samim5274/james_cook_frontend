@@ -1,0 +1,48 @@
+# ==========================================
+# robots.txt for Ogrova
+# https://ogrova.mercuviax.com
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Block system folders
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /bootstrap/
+Disallow: /config/
+Disallow: /database/
+Disallow: /resources/
+Disallow: /routes/
+Disallow: /tests/
+Disallow: /.env
+Disallow: /artisan
+
+# Block admin area (if you don't want it indexed)
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /register
+Disallow: /password/reset
+
+# Allow important assets
+Allow: /images/
+Allow: /assets/
+Allow: /storage/
+
+# Sitemap
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /register
+
+Sitemap: https://ogrova.mercuviax.com/sitemap.xml
+
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login
+Disallow: /register
+Disallow: /password/reset
