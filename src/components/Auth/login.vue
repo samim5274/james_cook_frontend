@@ -145,8 +145,8 @@ const errorMsg = ref("");
 const errors = reactive({});
 
 const form = reactive({
-    email: "admin@gmail.com",
-    password: "password",
+    email: "",
+    password: "",
     remember: true
 });
 
